@@ -1,0 +1,24 @@
+.background-hero-img {
+  background-image: url("../../assets/img/background-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-shadow {
+  background-color: #7968619c;
+}
+
+.container-img-hero {
+  height: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.img-hero {
+  background-image: url("../../assets/img/logo-hero-section.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 14rem;
+  width: 24rem;
+}
