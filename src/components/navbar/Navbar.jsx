@@ -6,8 +6,8 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='navbar-logo'>
         <figure className='container-logo'>
-          <img className='img-logo' src="../../../favicon.ico" alt="Logo of Pachamama's kitchen" />
-          <img className='img-logo' src="../../../logo-name.png" alt="Logo name of Pachamama's kitchen" />
+          <div className='img-logo'></div>
+          <div className='img-logo-name'></div>
         </figure>
       </div>
       <div className='navbar-links'>

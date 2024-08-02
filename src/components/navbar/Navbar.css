@@ -16,6 +16,22 @@
   display: flex;
 }
 
+.img-logo {
+  background-image: url("../../assets/img/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 4rem;
+  width: 4rem;
+}
+
+.img-logo-name {
+  background-image: url("../../assets/img/logo-name.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 4rem;
+  width: 19rem;
+}
+
 .navbar-links {
   background-color: #E7E6E6;
   padding: 1.36rem;
