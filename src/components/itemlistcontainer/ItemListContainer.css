@@ -1,0 +1,10 @@
+.container-greeting {
+  background-color: #F4F4F4;
+  margin: 1rem 6rem;
+  border-radius: 12px;
+}
+
+.greeting-message {
+  padding: 20px;
+  text-align: center;
+}
