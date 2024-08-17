@@ -5,34 +5,6 @@
 
 .content-pages {
   position: relative;
-  height: calc(100vh - 5.3rem);
+  height: calc(100vh - 4.2rem);
   overflow-y: scroll;
-}
-
-.container-div-container {
-  background-color: #F4F4F4;
-  margin: 1rem 6rem;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
-.container-img-hero {
-  height: 20rem;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
-.img-description {
-  background-image: url("./assets/img/img-restaurant.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 7rem;
-  width: 24.5rem;
-}
-
-.description-message {
-  padding-left: 30px;
 }
