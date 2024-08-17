@@ -1,5 +1,5 @@
 import './Home.css'
-import HeroSection from '../../components/tempHeroSection/HeroSection'
+import HeroSection from '../../components/HeroSection/HeroSection'
 
 const Home = () => {
   return (
