@@ -1,4 +1,4 @@
-import HeroSection from '../../components/HeroSection/HeroSection'
+import HeroSection from '../../components/tempHeroSection/HeroSection'
 import './About.css'
 
 const About = () => {

@@ -2,7 +2,7 @@ import './Menu.css';
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import DishListContainer from '../../components/DishListContainer/DishListContainer';
-import HeroSection from '../../components/HeroSection/HeroSection';
+import HeroSection from '../../components/tempHeroSection/HeroSection';
 
 const Menu = () => {
   const { categoryId } = useParams();
