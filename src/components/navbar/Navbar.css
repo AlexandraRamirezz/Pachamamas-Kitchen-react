@@ -1,6 +1,6 @@
 .navbar {
   background-color: #F4F4F4;
-  height: 5rem;
+  height: 4.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,49 +14,50 @@
 .container-logo {
   height: 4rem;
   display: flex;
+  align-items: center;
 }
 
 .img-logo {
-  background-image: url("../../assets/img/logo.png");
+  background-image: url("../../assets/images/logo.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 4rem;
-  width: 4rem;
+  height: 3.2rem;
+  width: 3.2rem;
 }
 
 .img-logo-name {
-  background-image: url("../../assets/img/logo-name.png");
+  background-image: url("../../assets/images/logo-name.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 4rem;
-  width: 19rem;
+  height: 3.2rem;
+  width: 17rem;
 }
 
 .navbar-links {
   background-color: #E7E6E6;
-  padding: 1.36rem;
+  padding: 1.3rem;
 }
 
 .nav-link {
   font-family: "Roboto", sans-serif;
-  background-color: #796861;
   color: #ffffff;
   text-align: center;
   display: inline-block;
   font-weight: 500;
-  padding: 0.55rem 1rem;
-  margin: 0 0.6rem;
 }
 
 .nav-link a {
+  background-color: #796861;
   text-decoration: none;
   color: inherit;
   font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.55rem 1rem;
+  margin: 0 0.6rem;
+  border-radius: 7px;
 }
 
-.nav-link:hover {
+.nav-link a:hover {
   background-color: #ffffff;
   color: #796861;
 }
-
-

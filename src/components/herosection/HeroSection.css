@@ -1,24 +1,31 @@
-.background-hero-img {
-  background-image: url("../../assets/img/background-img.png");
+.hero-section {
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background-shadow {
-  background-color: #7968619c;
+  background-color: #796861bb;
 }
 
 .container-img-hero {
-  height: 18rem;
+  height: 15rem;
   display: flex;
   justify-content: center;
   align-items: center
 }
 
 .img-hero {
-  background-image: url("../../assets/img/logo-hero-section.png");
+  background-image: url("../../assets/images/logo-hero-section.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 14rem;
-  width: 24rem;
+  height: 13rem;
+  width: 22rem;
+}
+
+.container-paragraph p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 0 10rem;
+  padding-bottom: 2.1rem;
 }
