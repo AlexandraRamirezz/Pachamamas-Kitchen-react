@@ -1,0 +1,33 @@
+.categories-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 7rem;
+  padding-top: 1.6rem;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.category-container.inactive {
+  opacity: 0.5;
+}
+
+.category-container.active {
+  opacity: 1;
+}
+
+.category-container p {
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.category-container img {
+  height: 10rem;
+}
