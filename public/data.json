@@ -294,7 +294,7 @@
   {
     "id": 16,
     "name": "Lomo saltado",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 50.00,
     "stock": 10,
     "image": "/assets/images/dishes/lomo_saltado.png",
@@ -315,7 +315,7 @@
   {
     "id": 17,
     "name": "Pollo a la brasa",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 60.00,
     "stock": 10,
     "image": "/assets/images/dishes/pollo_a_la_brasa.png",
@@ -334,7 +334,7 @@
   {
     "id": 18,
     "name": "Ají de gallina",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 45.50,
     "stock": 10,
     "image": "/assets/images/dishes/aji_de_gallina.png",
@@ -356,7 +356,7 @@
   {
     "id": 19,
     "name": "Anticuchos",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 58.00,
     "stock": 10,
     "image": "/assets/images/dishes/anticuchos.png",
@@ -375,7 +375,7 @@
   {
     "id": 20,
     "name": "Cuy al horno",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 70.00,
     "stock": 10,
     "image": "/assets/images/dishes/cuy_al_horno.png",
@@ -395,7 +395,7 @@
   {
     "id": 21,
     "name": "Adobo arequipeño",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 65.00,
     "stock": 10,
     "image": "/assets/images/dishes/adobo_arequipeno.png",
@@ -415,7 +415,7 @@
   {
     "id": 22,
     "name": "Carapulcra",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 48.00,
     "stock": 10,
     "image": "/assets/images/dishes/carapulcra.png",
@@ -435,7 +435,7 @@
   {
     "id": 23,
     "name": "Seco de cordero",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 50.00,
     "stock": 10,
     "image": "/assets/images/dishes/seco_de_cordero.png",
@@ -456,7 +456,7 @@
   {
     "id": 24,
     "name": "Tacu tacu",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 45.00,
     "stock": 10,
     "image": "/assets/images/dishes/tacu_tacu.png",
@@ -474,7 +474,7 @@
   {
     "id": 25,
     "name": "Pachamanca",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 75.00,
     "stock": 10,
     "image": "/assets/images/dishes/pachamanca.png",
@@ -493,7 +493,7 @@
   {
     "id": 26,
     "name": "Estofado de pollo",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 40.00,
     "stock": 10,
     "image": "/assets/images/dishes/estofado_de_pollo.png",
@@ -514,7 +514,7 @@
   {
     "id": 27,
     "name": "Ajiaco de papas",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 45.50,
     "stock": 10,
     "image": "/assets/images/dishes/ajiaco_de_papas.png",
@@ -534,7 +534,7 @@
   {
     "id": 28,
     "name": "Cau cau",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 50.00,
     "stock": 10,
     "image": "/assets/images/dishes/cau_cau.png",
@@ -553,7 +553,7 @@
   {
     "id": 29,
     "name": "Olluquito con charqui",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 45.00,
     "stock": 10,
     "image": "/assets/images/dishes/olluquito_con_charqui.png",
@@ -572,7 +572,7 @@
   {
     "id": 30,
     "name": "Chicharrón de cerdo",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 58.50,
     "stock": 10,
     "image": "/assets/images/dishes/chicharron_de_cerdo.png",
@@ -591,7 +591,7 @@
   {
     "id": 31,
     "name": "Tallarin verde",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 45.00,
     "stock": 10,
     "image": "/assets/images/dishes/tallarin_verde.png",
@@ -611,7 +611,7 @@
   {
     "id": 32,
     "name": "Puré de papa",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 55.50,
     "stock": 10,
     "image": "/assets/images/dishes/pure_de_papa.png",
@@ -630,7 +630,7 @@
   {
     "id": 33,
     "name": "Arroz con pollo",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 50.00,
     "stock": 10,
     "image": "/assets/images/dishes/arroz_con_pollo.png",
@@ -649,7 +649,7 @@
   {
     "id": 34,
     "name": "Arroz chaufa",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 50.00,
     "stock": 10,
     "image": "/assets/images/dishes/arroz_chaufa.png",
@@ -668,7 +668,7 @@
   {
     "id": 35,
     "name": "Tallarin rojo",
-    "category": "creole-food",
+    "category": "criollo-food",
     "price": 45.50,
     "stock": 10,
     "image": "/assets/images/dishes/tallarin_rojo.png",

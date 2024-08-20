@@ -5,7 +5,7 @@ import DishListContainer from '../../components/DishListContainer/DishListContai
 import HeroSection from '../../components/HeroSection/HeroSection';
 import backgroundImage from '/src/assets/images/background-menu.png';
 import imageStarters from '/src/assets/images/starters.png';
-import imageCreolefood from '/src/assets/images/creole-food.png';
+import imageCriollofood from '/src/assets/images/criollo-food.png';
 import imageSeafood from '/src/assets/images/seafood.png';
 import imageSoup from '/src/assets/images/soup.png';
 import imageDesserts from '/src/assets/images/desserts.png';
@@ -43,9 +43,9 @@ const Menu = () => {
           <img src={imageStarters} alt="Starters" />
           <p>Starters</p>
         </div>
-        <div className={getCategoryClassName('creole-food')} onClick={() => handleCategoryClick('creole-food')}>
-          <img src={imageCreolefood} alt="Creole food" />
-          <p>Creole food</p>
+        <div className={getCategoryClassName('criollo-food')} onClick={() => handleCategoryClick('criollo-food')}>
+          <img src={imageCriollofood} alt="Criollo food" />
+          <p>Criollo food</p>
         </div>
         <div className={getCategoryClassName('seafood')} onClick={() => handleCategoryClick('seafood')}>
           <img src={imageSeafood} alt="Seafood" />
