@@ -1,11 +1,12 @@
 import './Home.css'
 import HeroSection from '../../components/HeroSection/HeroSection'
+import backgroundImage from '/src/assets/images/background-home.png';
 
 const Home = () => {
   return (
     <>
       <HeroSection
-        backgroundImage={'src/assets/images/background-home.png'}
+        backgroundImage={backgroundImage}
         title={'Food of the restaurant'}
         paragraph={'Welcome to Pachamamas Kitchen! We are your gateway to authentic Peruvian cuisine with a modern twist. From classic ceviche to innovative dishes, we offer a culinary journey through Perus diverse flavors. Come and taste the soul of Peru!'} />
       <div className='container-div-container'>

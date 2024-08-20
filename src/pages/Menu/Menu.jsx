@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import DishListContainer from '../../components/DishListContainer/DishListContainer';
 import HeroSection from '../../components/HeroSection/HeroSection';
+import backgroundImage from '/src/assets/images/background-menu.png';
 
 const Menu = () => {
   const { categoryId } = useParams();
@@ -27,7 +28,7 @@ const Menu = () => {
   return (
     <>
       <HeroSection
-        backgroundImage={'src/assets/images/background-menu.png'}
+        backgroundImage={backgroundImage}
         title={'Food of the restaurant'}
         paragraph={null}
       />
