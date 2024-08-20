@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <HeroSection
-        backgroundImage={'/src/assets/images/background-about.png'}
+        backgroundImage={'src/assets/images/background-about.png'}
         title={'Information of the restaurant'}
         paragraph={null}
       />

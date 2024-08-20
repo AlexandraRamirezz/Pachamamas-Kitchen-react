@@ -5,7 +5,7 @@ const ContactUs = () => {
   return (
     <>
       <HeroSection
-        backgroundImage={'/src/assets/images/background-contactus.png'}
+        backgroundImage={'src/assets/images/background-contactus.png'}
         title={'Contact of the restaurant'}
         paragraph={null}
       />

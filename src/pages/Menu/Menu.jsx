@@ -27,7 +27,7 @@ const Menu = () => {
   return (
     <>
       <HeroSection
-        backgroundImage={'/src/assets/images/background-menu.png'}
+        backgroundImage={'src/assets/images/background-menu.png'}
         title={'Food of the restaurant'}
         paragraph={null}
       />

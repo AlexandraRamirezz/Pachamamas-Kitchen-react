@@ -5,7 +5,7 @@ const Reservations = () => {
   return (
     <>
       <HeroSection
-        backgroundImage={'/src/assets/images/background-reservations.png'}
+        backgroundImage={'src/assets/images/background-reservations.png'}
         title={'Reservations of the restaurant'}
         paragraph={null}
       />
