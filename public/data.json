@@ -5,7 +5,7 @@
     "category": "starters",
     "price": 20.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/tequenos.png",
+    "image": "/assets/images/dishes/tequenos.png",
     "description": "Tequeños stuffed with cheese served with creamy guacamole, offering a perfect blend of crispy dough and melted cheese for a delightful appetizer.",
     "ingredients": [
       "Cheese",
@@ -23,7 +23,7 @@
     "category": "starters",
     "price": 25.50,
     "stock": 12,
-    "image": "/src/assets/images/dishes/causa_rellena.png",
+    "image": "/assets/images/dishes/causa_rellena.png",
     "description": "Causa rellena made with layers of mashed potatoes, avocado, and tuna or chicken, topped with mayonnaise and garnished with olives and eggs, providing a savory and refreshing starter.",
     "ingredients": [
       "Potatoes",
@@ -44,7 +44,7 @@
     "category": "starters",
     "price": 30.00,
     "stock": 8,
-    "image": "/src/assets/images/dishes/rocoto_relleno.png",
+    "image": "/assets/images/dishes/rocoto_relleno.png",
     "description": "Rocoto relleno features a spicy rocoto pepper stuffed with a mixture of ground beef, onions, peanuts, and spices, baked with a creamy cheese topping for a bold and flavorful dish.",
     "ingredients": [
       "Rocoto pepper",
@@ -64,7 +64,7 @@
     "category": "starters",
     "price": 25.00,
     "stock": 15,
-    "image": "/src/assets/images/dishes/papa_a_la_huancaina.png",
+    "image": "/assets/images/dishes/papa_a_la_huancaina.png",
     "description": "Papa a la huancaína consists of boiled potatoes served with a creamy, spicy cheese sauce made from ají amarillo, milk, and fresh cheese, garnished with olives and boiled eggs.",
     "ingredients": [
       "Potatoes",
@@ -85,7 +85,7 @@
     "category": "starters",
     "price": 23.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/tamales_de_pollo.png",
+    "image": "/assets/images/dishes/tamales_de_pollo.png",
     "description": "Tamales de pollo are made from corn dough filled with seasoned chicken, wrapped in banana leaves, and steamed to perfection, offering a moist and flavorful treat.",
     "ingredients": [
       "Corn dough",
@@ -104,7 +104,7 @@
     "category": "starters",
     "price": 22.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/papa_rellena.png",
+    "image": "/assets/images/dishes/papa_rellena.png",
     "description": "Papa rellena is a fried mashed potato stuffed with a savory mixture of ground beef, onions, raisins, and hard-boiled eggs, delivering a hearty and comforting appetizer.",
     "ingredients": [
       "Potatoes",
@@ -124,7 +124,7 @@
     "category": "starters",
     "price": 27.00,
     "stock": 7,
-    "image": "/src/assets/images/dishes/crema_de_rocoto.png",
+    "image": "/assets/images/dishes/crema_de_rocoto.png",
     "description": "Crema de rocoto is a spicy and creamy sauce made from rocoto peppers, cheese, and milk, typically served as a dip or spread for various starters.",
     "ingredients": [
       "Rocoto peppers",
@@ -142,7 +142,7 @@
     "category": "starters",
     "price": 30.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/choclo_con_queso.png",
+    "image": "/assets/images/dishes/choclo_con_queso.png",
     "description": "Choclo con queso pairs large-kernel Andean corn with fresh cheese, offering a simple yet satisfying combination of flavors and textures, perfect as a starter or side dish.",
     "ingredients": [
       "Andean corn",
@@ -159,7 +159,7 @@
     "category": "starters",
     "price": 30.00,
     "stock": 8,
-    "image": "/src/assets/images/dishes/yuca_rellena.png",
+    "image": "/assets/images/dishes/yuca_rellena.png",
     "description": "Yuca rellena features fried cassava stuffed with a flavorful mix of ground beef, onions, and spices, providing a crunchy and satisfying start to any meal.",
     "ingredients": [
       "Cassava",
@@ -178,7 +178,7 @@
     "category": "starters",
     "price": 25.00,
     "stock": 12,
-    "image": "/src/assets/images/dishes/ensalada_de_palta.png",
+    "image": "/assets/images/dishes/ensalada_de_palta.png",
     "description": "Ensalada de palta is a fresh and nutritious avocado salad, mixed with tomatoes, onions, and lettuce, dressed with lime juice and olive oil, perfect for a light start to your meal.",
     "ingredients": [
       "Avocado",
@@ -199,7 +199,7 @@
     "category": "starters",
     "price": 20.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/solterito.png",
+    "image": "/assets/images/dishes/solterito.png",
     "description": "Solterito is a refreshing salad made with a mix of fresh vegetables, such as corn, beans, olives, and cheese, dressed with olive oil and lime, perfect as a light starter.",
     "ingredients": [
       "Corn",
@@ -220,7 +220,7 @@
     "category": "starters",
     "price": 35.50,
     "stock": 10,
-    "image": "/src/assets/images/dishes/salchipapa.png",
+    "image": "/assets/images/dishes/salchipapa.png",
     "description": "Salchipapa is a popular street food dish consisting of fried sausages and crispy fries, topped with a variety of sauces, making it a flavorful and indulgent starter.",
     "ingredients": [
       "Sausages",
@@ -240,7 +240,7 @@
     "category": "starters",
     "price": 30.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/palta_rellena.png",
+    "image": "/assets/images/dishes/palta_rellena.png",
     "description": "Palta rellena is a delicious stuffed avocado dish, filled with a mixture of vegetables and mayonnaise, offering a creamy and nutritious appetizer.",
     "ingredients": [
       "Avocado",
@@ -258,7 +258,7 @@
     "category": "starters",
     "price": 28.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/humitas.png",
+    "image": "/assets/images/dishes/humitas.png",
     "description": "Humitas are a traditional dish made from fresh corn dough filled with cheese, wrapped in corn husks, and steamed to perfection, providing a warm and comforting start to any meal.",
     "ingredients": [
       "Corn dough",
@@ -276,7 +276,7 @@
     "category": "starters",
     "price": 25.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/ocopa.png",
+    "image": "/assets/images/dishes/ocopa.png",
     "description": "Ocopa is a traditional Peruvian dish consisting of boiled potatoes covered in a creamy, spicy sauce made from ají amarillo, cheese, and peanuts, garnished with boiled eggs and olives.",
     "ingredients": [
       "Potatoes",
@@ -297,7 +297,7 @@
     "category": "creole-food",
     "price": 50.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/lomo_saltado.png",
+    "image": "/assets/images/dishes/lomo_saltado.png",
     "description": "Lomo saltado is a traditional Peruvian stir-fry dish combining beef, onions, tomatoes, and spices, served with crispy fries and steamed rice for a savory and hearty meal.",
     "ingredients": [
       "Beef",
@@ -318,7 +318,7 @@
     "category": "creole-food",
     "price": 60.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/pollo_a_la_brasa.png",
+    "image": "/assets/images/dishes/pollo_a_la_brasa.png",
     "description": "Pollo a la brasa is a classic rotisserie chicken dish marinated in Peruvian spices and cooked to perfection, served with crispy fries and fresh salad.",
     "ingredients": [
       "Chicken",
@@ -337,7 +337,7 @@
     "category": "creole-food",
     "price": 45.50,
     "stock": 10,
-    "image": "/src/assets/images/dishes/aji_de_gallina.png",
+    "image": "/assets/images/dishes/aji_de_gallina.png",
     "description": "Ají de gallina is a creamy chicken stew made with shredded chicken, milk, bread, and yellow chili pepper, served with boiled potatoes, rice, and olives.",
     "ingredients": [
       "Chicken",
@@ -359,7 +359,7 @@
     "category": "creole-food",
     "price": 58.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/anticuchos.png",
+    "image": "/assets/images/dishes/anticuchos.png",
     "description": "Anticuchos are skewers of marinated beef heart grilled to perfection, served with boiled potatoes and corn, offering a smoky and flavorful experience.",
     "ingredients": [
       "Beef heart",
@@ -378,7 +378,7 @@
     "category": "creole-food",
     "price": 70.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/cuy_al_horno.png",
+    "image": "/assets/images/dishes/cuy_al_horno.png",
     "description": "Cuy al horno is a traditional dish featuring roasted guinea pig, seasoned with herbs and spices, and served with potatoes and salad for a unique and hearty meal.",
     "ingredients": [
       "Guinea pig",
@@ -398,7 +398,7 @@
     "category": "creole-food",
     "price": 65.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/adobo_arequipeno.png",
+    "image": "/assets/images/dishes/adobo_arequipeno.png",
     "description": "Adobo arequipeño is a rich and hearty pork stew marinated with chicha de jora, garlic, and Peruvian spices, slow-cooked to perfection and served with boiled potatoes.",
     "ingredients": [
       "Pork",
@@ -418,7 +418,7 @@
     "category": "creole-food",
     "price": 48.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/carapulcra.png",
+    "image": "/assets/images/dishes/carapulcra.png",
     "description": "Carapulcra is a traditional stew made from dried potatoes and pork, slow-cooked with peanuts, chili peppers, and spices for a flavorful and hearty dish.",
     "ingredients": [
       "Dried potatoes",
@@ -438,7 +438,7 @@
     "category": "creole-food",
     "price": 50.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/seco_de_cordero.png",
+    "image": "/assets/images/dishes/seco_de_cordero.png",
     "description": "Seco de cordero is a flavorful lamb stew made with cilantro, beer, and spices, slow-cooked until tender, and served with beans and rice.",
     "ingredients": [
       "Lamb",
@@ -459,7 +459,7 @@
     "category": "creole-food",
     "price": 45.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/tacu_tacu.png",
+    "image": "/assets/images/dishes/tacu_tacu.png",
     "description": "Tacu tacu is a traditional Peruvian dish made from a mixture of rice and beans, fried to a crispy texture and served with a fried egg on top.",
     "ingredients": [
       "Rice",
@@ -477,7 +477,7 @@
     "category": "creole-food",
     "price": 75.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/pachamanca.png",
+    "image": "/assets/images/dishes/pachamanca.png",
     "description": "Pachamanca is a traditional Andean dish cooked underground, consisting of a variety of meats, potatoes, corn, and herbs, offering a rich and smoky flavor.",
     "ingredients": [
       "Variety of meats",
@@ -496,7 +496,7 @@
     "category": "creole-food",
     "price": 40.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/estofado_de_pollo.png",
+    "image": "/assets/images/dishes/estofado_de_pollo.png",
     "description": "Estofado de pollo is a comforting chicken stew cooked with carrots, peas, and potatoes in a tomato-based sauce, served with steamed rice.",
     "ingredients": [
       "Chicken",
@@ -517,7 +517,7 @@
     "category": "creole-food",
     "price": 45.50,
     "stock": 10,
-    "image": "/src/assets/images/dishes/ajiaco_de_papas.png",
+    "image": "/assets/images/dishes/ajiaco_de_papas.png",
     "description": "Ajiaco de papas is a traditional potato stew made with a variety of potatoes, milk, and cheese, seasoned with herbs and served with steamed rice.",
     "ingredients": [
       "Potatoes",
@@ -537,7 +537,7 @@
     "category": "creole-food",
     "price": 50.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/cau_cau.png",
+    "image": "/assets/images/dishes/cau_cau.png",
     "description": "Cau cau is a traditional Peruvian tripe stew cooked with potatoes and yellow chili pepper, served with steamed rice for a hearty meal.",
     "ingredients": [
       "Tripe",
@@ -556,7 +556,7 @@
     "category": "creole-food",
     "price": 45.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/olluquito_con_charqui.png",
+    "image": "/assets/images/dishes/olluquito_con_charqui.png",
     "description": "Olluquito con charqui is a traditional Andean dish made with olluco (a tuber) and dried meat, cooked together in a flavorful stew and served with steamed rice.",
     "ingredients": [
       "Olluco",
@@ -575,7 +575,7 @@
     "category": "creole-food",
     "price": 58.50,
     "stock": 10,
-    "image": "/src/assets/images/dishes/chicharron_de_cerdo.png",
+    "image": "/assets/images/dishes/chicharron_de_cerdo.png",
     "description": "Chicharrón de cerdo is a traditional dish of crispy fried pork served with boiled corn, sweet potatoes, and fresh salsa criolla for a delicious and satisfying meal.",
     "ingredients": [
       "Pork",
@@ -594,7 +594,7 @@
     "category": "creole-food",
     "price": 45.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/tallarin_verde.png",
+    "image": "/assets/images/dishes/tallarin_verde.png",
     "description": "Tallarin verde is a Peruvian version of pesto pasta made with spinach, basil, and queso fresco, served with a tender steak on top.",
     "ingredients": [
       "Pasta",
@@ -614,7 +614,7 @@
     "category": "creole-food",
     "price": 55.50,
     "stock": 10,
-    "image": "/src/assets/images/dishes/pure_de_papa.png",
+    "image": "/assets/images/dishes/pure_de_papa.png",
     "description": "Puré de papa is a creamy mashed potato dish, served as a side with various Peruvian main courses, often topped with a grilled chicken leg.",
     "ingredients": [
       "Potatoes",
@@ -633,7 +633,7 @@
     "category": "creole-food",
     "price": 50.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/arroz_con_pollo.png",
+    "image": "/assets/images/dishes/arroz_con_pollo.png",
     "description": "Arroz con pollo is a traditional Peruvian dish where chicken is cooked with a cilantro-infused rice, often served with a side of salsa criolla.",
     "ingredients": [
       "Chicken",
@@ -652,7 +652,7 @@
     "category": "creole-food",
     "price": 50.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/arroz_chaufa.png",
+    "image": "/assets/images/dishes/arroz_chaufa.png",
     "description": "Arroz chaufa is a Peruvian-Chinese fusion dish featuring stir-fried rice mixed with chicken, vegetables, and soy sauce, offering a savory and aromatic meal.",
     "ingredients": [
       "Rice",
@@ -671,7 +671,7 @@
     "category": "creole-food",
     "price": 45.50,
     "stock": 10,
-    "image": "/src/assets/images/dishes/tallarin_rojo.png",
+    "image": "/assets/images/dishes/tallarin_rojo.png",
     "description": "Tallarin rojo is a Peruvian-style spaghetti cooked in a rich tomato sauce with onions, garlic, and spices, often served with a fried chicken leg on top.",
     "ingredients": [
       "Spaghetti",
@@ -692,7 +692,7 @@
     "category": "seafood",
     "price": 50.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/leche_de_tigre.png",
+    "image": "/assets/images/dishes/leche_de_tigre.png",
     "description": "Leche de tigre is a citrus-based marinade used to cure fish in ceviche, often served as a shot or in a glass with seafood.",
     "ingredients": [
       "Fish",
@@ -713,7 +713,7 @@
     "category": "seafood",
     "price": 60.00,
     "stock": 8,
-    "image": "/src/assets/images/dishes/jalea_de_mariscos.png",
+    "image": "/assets/images/dishes/jalea_de_mariscos.png",
     "description": "Jalea de mariscos is a popular Peruvian dish made of deep-fried seafood served with a side of fried yuca and a tangy salsa criolla.",
     "ingredients": [
       "seafood mix",
@@ -734,7 +734,7 @@
     "category": "seafood",
     "price": 45.50,
     "stock": 12,
-    "image": "/src/assets/images/dishes/tiradito.png",
+    "image": "/assets/images/dishes/tiradito.png",
     "description": "Tiradito is a Peruvian dish of raw fish, sliced thinly and served with a spicy, tangy sauce, similar to ceviche but without onions.",
     "ingredients": [
       "Fish",
@@ -754,7 +754,7 @@
     "category": "seafood",
     "price": 58.00,
     "stock": 6,
-    "image": "/src/assets/images/dishes/sudado_de_pescado.png",
+    "image": "/assets/images/dishes/sudado_de_pescado.png",
     "description": "Sudado de pescado is a flavorful Peruvian fish stew made with fresh fish, tomatoes, onions, and a blend of spices.",
     "ingredients": [
       "Fish",
@@ -775,7 +775,7 @@
     "category": "seafood",
     "price": 70.00,
     "stock": 5,
-    "image": "/src/assets/images/dishes/trucha_frita.png",
+    "image": "/assets/images/dishes/trucha_frita.png",
     "description": "Trucha frita is a dish of fried trout, typically served with potatoes, rice, and a side of salad.",
     "ingredients": [
       "Trout",
@@ -796,7 +796,7 @@
     "category": "seafood",
     "price": 65.00,
     "stock": 9,
-    "image": "/src/assets/images/dishes/chicharron_de_calamar.png",
+    "image": "/assets/images/dishes/chicharron_de_calamar.png",
     "description": "Chicharrón de calamar is a popular Peruvian dish of deep-fried calamari rings, served with lemon and tartar sauce.",
     "ingredients": [
       "Calamari",
@@ -816,7 +816,7 @@
     "category": "seafood",
     "price": 48.00,
     "stock": 7,
-    "image": "/src/assets/images/dishes/parihuela.png",
+    "image": "/assets/images/dishes/parihuela.png",
     "description": "Parihuela is a hearty Peruvian seafood stew made with a variety of seafood, fish, and vegetables, cooked in a rich broth.",
     "ingredients": [
       "Fish",
@@ -837,7 +837,7 @@
     "category": "seafood",
     "price": 50.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/ceviche.png",
+    "image": "/assets/images/dishes/ceviche.png",
     "description": "Ceviche is a classic Peruvian dish made with fresh raw fish marinated in lime juice, mixed with onions, cilantro, and served with corn and sweet potatoes.",
     "ingredients": [
       "Fish",
@@ -858,7 +858,7 @@
     "category": "seafood",
     "price": 45.00,
     "stock": 8,
-    "image": "/src/assets/images/dishes/arroz_con_mariscos.png",
+    "image": "/assets/images/dishes/arroz_con_mariscos.png",
     "description": "Arroz con mariscos is a Peruvian seafood rice dish, similar to paella, made with a variety of seafood, rice, and a rich, flavorful sauce.",
     "ingredients": [
       "Rice",
@@ -879,7 +879,7 @@
     "category": "seafood",
     "price": 75.00,
     "stock": 6,
-    "image": "/src/assets/images/dishes/choritos_a_la_chalaca.png",
+    "image": "/assets/images/dishes/choritos_a_la_chalaca.png",
     "description": "Choritos a la chalaca is a popular Peruvian appetizer made with mussels topped with a mixture of onions, tomatoes, corn, and lime juice.",
     "ingredients": [
       "Mussels",
@@ -900,7 +900,7 @@
     "category": "seafood",
     "price": 40.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/pescado_a_lo_macho.png",
+    "image": "/assets/images/dishes/pescado_a_lo_macho.png",
     "description": "Pescado a lo macho is a traditional Peruvian dish featuring a fish fillet topped with a spicy seafood sauce made with shrimp, squid, and other seafood.",
     "ingredients": [
       "Fish fillet",
@@ -921,7 +921,7 @@
     "category": "seafood",
     "price": 45.50,
     "stock": 8,
-    "image": "/src/assets/images/dishes/tacu_tacu_de_mariscos.png",
+    "image": "/assets/images/dishes/tacu_tacu_de_mariscos.png",
     "description": "Tacu tacu de mariscos is a hearty dish combining the traditional Peruvian tacu tacu (a mixture of rice and beans) with a flavorful seafood sauce.",
     "ingredients": [
       "Rice",
@@ -942,7 +942,7 @@
     "category": "seafood",
     "price": 50.00,
     "stock": 9,
-    "image": "/src/assets/images/dishes/pulpo_al_olivo.png",
+    "image": "/assets/images/dishes/pulpo_al_olivo.png",
     "description": "Pulpo al olivo is a Peruvian dish made with octopus drizzled with a creamy olive sauce, served with potatoes or a fresh salad.",
     "ingredients": [
       "Octopus",
@@ -962,7 +962,7 @@
     "category": "seafood",
     "price": 45.00,
     "stock": 7,
-    "image": "/src/assets/images/dishes/cangrejos_rellenos.png",
+    "image": "/assets/images/dishes/cangrejos_rellenos.png",
     "description": "Cangrejos rellenos are a delicious dish of crab shells filled with a seasoned crab meat mixture, often served as an appetizer.",
     "ingredients": [
       "Crab meat",
@@ -982,7 +982,7 @@
     "category": "seafood",
     "price": 58.50,
     "stock": 6,
-    "image": "/src/assets/images/dishes/langostinos_al_ajillo.png",
+    "image": "/assets/images/dishes/langostinos_al_ajillo.png",
     "description": "Langostinos al ajillo is a flavorful dish of shrimp sautéed in garlic, white wine, and butter, often served with bread or rice.",
     "ingredients": [
       "Shrimp",
@@ -1002,7 +1002,7 @@
     "category": "soup",
     "price": 40.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/chupe_de_camarones.png",
+    "image": "/assets/images/dishes/chupe_de_camarones.png",
     "description": "Chupe de camarones is a traditional Peruvian shrimp chowder made with shrimp, potatoes, milk, and spices, topped with a poached egg.",
     "ingredients": [
       "Shrimp",
@@ -1023,7 +1023,7 @@
     "category": "soup",
     "price": 30.00,
     "stock": 15,
-    "image": "/src/assets/images/dishes/sopa_de_quinua.png",
+    "image": "/assets/images/dishes/sopa_de_quinua.png",
     "description": "Sopa de quinua is a hearty and nutritious soup made with quinoa, vegetables, and sometimes chicken or beef for added flavor.",
     "ingredients": [
       "Quinoa",
@@ -1043,7 +1043,7 @@
     "category": "soup",
     "price": 25.50,
     "stock": 12,
-    "image": "/src/assets/images/dishes/sopa_criolla.png",
+    "image": "/assets/images/dishes/sopa_criolla.png",
     "description": "Sopa criolla is a traditional Peruvian soup made with beef, noodles, milk, and spices, often topped with a fried egg.",
     "ingredients": [
       "Beef",
@@ -1063,7 +1063,7 @@
     "category": "soup",
     "price": 30.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/sopa_seca.png",
+    "image": "/assets/images/dishes/sopa_seca.png",
     "description": "Sopa seca is a Peruvian dish that translates to 'dry soup,' made with spiced noodles cooked in a flavorful broth until the liquid is absorbed.",
     "ingredients": [
       "Noodles",
@@ -1083,7 +1083,7 @@
     "category": "soup",
     "price": 20.00,
     "stock": 15,
-    "image": "/src/assets/images/dishes/sopa_a_la_minuta.png",
+    "image": "/assets/images/dishes/sopa_a_la_minuta.png",
     "description": "Sopa a la minuta is a quick and simple Peruvian soup made with ground beef, noodles, milk, and eggs.",
     "ingredients": [
       "Ground beef",
@@ -1103,7 +1103,7 @@
     "category": "soup",
     "price": 25.00,
     "stock": 8,
-    "image": "/src/assets/images/dishes/sopa_de_olluco.png",
+    "image": "/assets/images/dishes/sopa_de_olluco.png",
     "description": "Sopa de olluco is a traditional Andean soup made with olluco tubers, potatoes, and beef, seasoned with a blend of Peruvian spices.",
     "ingredients": [
       "Olluco",
@@ -1123,7 +1123,7 @@
     "category": "soup",
     "price": 35.00,
     "stock": 6,
-    "image": "/src/assets/images/dishes/caldo_de_cabeza.png",
+    "image": "/assets/images/dishes/caldo_de_cabeza.png",
     "description": "Caldo de cabeza is a hearty soup made with a sheep's head, flavored with herbs and vegetables, and often served with a side of corn.",
     "ingredients": [
       "Sheep's head",
@@ -1143,7 +1143,7 @@
     "category": "soup",
     "price": 30.00,
     "stock": 12,
-    "image": "/src/assets/images/dishes/caldo_de_gallina.png",
+    "image": "/assets/images/dishes/caldo_de_gallina.png",
     "description": "Caldo de gallina is a nourishing Peruvian chicken soup made with whole pieces of chicken, potatoes, and a rich, flavorful broth.",
     "ingredients": [
       "Chicken",
@@ -1163,7 +1163,7 @@
     "category": "soup",
     "price": 40.00,
     "stock": 8,
-    "image": "/src/assets/images/dishes/sopa_de_choros.png",
+    "image": "/assets/images/dishes/sopa_de_choros.png",
     "description": "Sopa de choros is a delicious soup made with fresh mussels, potatoes, and a variety of Peruvian spices.",
     "ingredients": [
       "Mussels",
@@ -1183,7 +1183,7 @@
     "category": "soup",
     "price": 35.00,
     "stock": 7,
-    "image": "/src/assets/images/dishes/sopa_de_mondongo.png",
+    "image": "/assets/images/dishes/sopa_de_mondongo.png",
     "description": "Sopa de mondongo is a traditional Peruvian soup made with tripe, potatoes, and a mix of spices, often enjoyed as a hearty meal.",
     "ingredients": [
       "Tripe",
@@ -1203,7 +1203,7 @@
     "category": "soup",
     "price": 40.00,
     "stock": 9,
-    "image": "/src/assets/images/dishes/sopa_de_pescado.png",
+    "image": "/assets/images/dishes/sopa_de_pescado.png",
     "description": "Sopa de pescado is a flavorful fish soup made with fresh fish, potatoes, and a variety of Peruvian spices.",
     "ingredients": [
       "Fish",
@@ -1223,7 +1223,7 @@
     "category": "soup",
     "price": 30.50,
     "stock": 10,
-    "image": "/src/assets/images/dishes/sopa_de_trigo.png",
+    "image": "/assets/images/dishes/sopa_de_trigo.png",
     "description": "Sopa de trigo is a nutritious Peruvian soup made with wheat grains, vegetables, and sometimes meat, seasoned with herbs and spices.",
     "ingredients": [
       "Wheat",
@@ -1243,7 +1243,7 @@
     "category": "soup",
     "price": 28.00,
     "stock": 12,
-    "image": "/src/assets/images/dishes/sopa_de_frijoles.png",
+    "image": "/assets/images/dishes/sopa_de_frijoles.png",
     "description": "Sopa de frijoles is a hearty bean soup, popular in Peru, made with beans, vegetables, and a rich broth, sometimes including chorizo.",
     "ingredients": [
       "Beans",
@@ -1263,7 +1263,7 @@
     "category": "soup",
     "price": 25.00,
     "stock": 11,
-    "image": "/src/assets/images/dishes/caldo_verde_peruano.png",
+    "image": "/assets/images/dishes/caldo_verde_peruano.png",
     "description": "Caldo verde peruano is a Peruvian version of the classic green broth, made with potatoes, leafy greens, and sometimes chorizo or other meat.",
     "ingredients": [
       "Potatoes",
@@ -1283,7 +1283,7 @@
     "category": "soup",
     "price": 35.50,
     "stock": 6,
-    "image": "/src/assets/images/dishes/sopa_teologa.png",
+    "image": "/assets/images/dishes/sopa_teologa.png",
     "description": "Sopa teóloga is a rich and flavorful Peruvian soup made with a variety of meats, potatoes, and a unique blend of spices, often served on special occasions.",
     "ingredients": [
       "Chicken",
@@ -1303,7 +1303,7 @@
     "category": "desserts",
     "price": 30.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/suspiro_limeno.png",
+    "image": "/assets/images/dishes/suspiro_limeno.png",
     "description": "Suspiro Limeño is a traditional Peruvian dessert made with a creamy base of sweetened milk, topped with a fluffy meringue.",
     "ingredients": [
       "Sweetened condensed milk",
@@ -1323,7 +1323,7 @@
     "category": "desserts",
     "price": 25.00,
     "stock": 15,
-    "image": "/src/assets/images/dishes/mazamorra_morada.png",
+    "image": "/assets/images/dishes/mazamorra_morada.png",
     "description": "Mazamorra Morada is a classic Peruvian dessert made from purple corn, mixed with fruits and spices, resulting in a thick, flavorful pudding.",
     "ingredients": [
       "Purple corn",
@@ -1343,7 +1343,7 @@
     "category": "desserts",
     "price": 20.00,
     "stock": 20,
-    "image": "/src/assets/images/dishes/arroz_con_leche.png",
+    "image": "/assets/images/dishes/arroz_con_leche.png",
     "description": "Arroz con Leche is a creamy rice pudding dessert made with milk, sugar, and cinnamon, offering a comforting and sweet flavor.",
     "ingredients": [
       "Rice",
@@ -1363,7 +1363,7 @@
     "category": "desserts",
     "price": 35.00,
     "stock": 12,
-    "image": "/src/assets/images/dishes/tres_leches.png",
+    "image": "/assets/images/dishes/tres_leches.png",
     "description": "Tres Leches is a moist cake soaked in three types of milk: evaporated milk, condensed milk, and heavy cream, topped with whipped cream.",
     "ingredients": [
       "Cake flour",
@@ -1383,7 +1383,7 @@
     "category": "desserts",
     "price": 25.00,
     "stock": 18,
-    "image": "/src/assets/images/dishes/picarones.png",
+    "image": "/assets/images/dishes/picarones.png",
     "description": "Picarones are Peruvian doughnuts made from squash and sweet potato, fried to a golden crisp and drizzled with chancaca syrup.",
     "ingredients": [
       "Squash",
@@ -1403,7 +1403,7 @@
     "category": "desserts",
     "price": 20.00,
     "stock": 25,
-    "image": "/src/assets/images/dishes/alfajores.png",
+    "image": "/assets/images/dishes/alfajores.png",
     "description": "Alfajores are delicate sandwich cookies filled with creamy dulce de leche and dusted with powdered sugar.",
     "ingredients": [
       "Cornstarch",
@@ -1423,7 +1423,7 @@
     "category": "desserts",
     "price": 40.00,
     "stock": 8,
-    "image": "/src/assets/images/dishes/king_kong_de_piura.png",
+    "image": "/assets/images/dishes/king_kong_de_piura.png",
     "description": "King Kong de Piura is a traditional Peruvian layered cake made with manjar blanco, pineapple jam, and a crispy biscuit.",
     "ingredients": [
       "Flour",
@@ -1443,7 +1443,7 @@
     "category": "desserts",
     "price": 20.00,
     "stock": 22,
-    "image": "/src/assets/images/dishes/torta_helada.png",
+    "image": "/assets/images/dishes/torta_helada.png",
     "description": "Torta Helada is a refreshing Peruvian dessert made with layers of sponge cake and fruit-flavored gelatin, topped with cream.",
     "ingredients": [
       "Sponge cake",
@@ -1463,7 +1463,7 @@
     "category": "desserts",
     "price": 25.00,
     "stock": 14,
-    "image": "/src/assets/images/dishes/selva_negra.png",
+    "image": "/assets/images/dishes/selva_negra.png",
     "description": "Selva Negra is a rich and decadent chocolate cake layered with whipped cream and cherries, a Peruvian take on the classic Black Forest cake.",
     "ingredients": [
       "Chocolate",
@@ -1483,7 +1483,7 @@
     "category": "desserts",
     "price": 30.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/turrones_de_dona_pepa.png",
+    "image": "/assets/images/dishes/turrones_de_dona_pepa.png",
     "description": "Turrones de Doña Pepa is a traditional Peruvian dessert made with layers of anise-flavored dough, covered with honey and colorful sprinkles.",
     "ingredients": [
       "Flour",
@@ -1503,7 +1503,7 @@
     "category": "desserts",
     "price": 30.00,
     "stock": 16,
-    "image": "/src/assets/images/dishes/queso_helado.png",
+    "image": "/assets/images/dishes/queso_helado.png",
     "description": "Queso Helado is a traditional Peruvian dessert from Arequipa, made with a mix of milk, coconut, and cinnamon, frozen to perfection.",
     "ingredients": [
       "Milk",
@@ -1523,7 +1523,7 @@
     "category": "desserts",
     "price": 20.50,
     "stock": 30,
-    "image": "/src/assets/images/dishes/cocadas.png",
+    "image": "/assets/images/dishes/cocadas.png",
     "description": "Cocadas are sweet coconut macaroons that are crispy on the outside and chewy on the inside, made with shredded coconut and condensed milk.",
     "ingredients": [
       "Shredded coconut",
@@ -1542,7 +1542,7 @@
     "category": "desserts",
     "price": 20.00,
     "stock": 20,
-    "image": "/src/assets/images/dishes/leche_asada.png",
+    "image": "/assets/images/dishes/leche_asada.png",
     "description": "Leche Asada is a traditional Peruvian dessert similar to flan, made by baking sweetened milk and eggs to create a caramelized top.",
     "ingredients": [
       "Milk",
@@ -1562,7 +1562,7 @@
     "category": "desserts",
     "price": 22.50,
     "stock": 18,
-    "image": "/src/assets/images/dishes/pudin.png",
+    "image": "/assets/images/dishes/pudin.png",
     "description": "Pudín is a Peruvian bread pudding made with leftover bread, milk, and spices, baked to a golden perfection.",
     "ingredients": [
       "Bread",
@@ -1582,7 +1582,7 @@
     "category": "desserts",
     "price": 25.00,
     "stock": 15,
-    "image": "/src/assets/images/dishes/crema_volteada.png",
+    "image": "/assets/images/dishes/crema_volteada.png",
     "description": "Crema Volteada is a Peruvian-style caramel flan, rich and smooth, with a golden caramel topping.",
     "ingredients": [
       "Milk",
@@ -1601,7 +1601,7 @@
     "category": "drinks",
     "price": 30.00,
     "stock": 20,
-    "image": "/src/assets/images/dishes/pisco_sour.png",
+    "image": "/assets/images/dishes/pisco_sour.png",
     "description": "Pisco Sour is Peru's iconic cocktail made with Pisco, lime juice, simple syrup, egg white, and Angostura bitters.",
     "ingredients": [
       "Pisco",
@@ -1621,7 +1621,7 @@
     "category": "drinks",
     "price": 25.00,
     "stock": 25,
-    "image": "/src/assets/images/dishes/chicha_morada.png",
+    "image": "/assets/images/dishes/chicha_morada.png",
     "description": "Chicha Morada is a traditional non-alcoholic beverage made from purple corn, pineapple, cinnamon, and cloves.",
     "ingredients": [
       "Purple corn",
@@ -1641,7 +1641,7 @@
     "category": "drinks",
     "price": 20.00,
     "stock": 15,
-    "image": "/src/assets/images/dishes/chicha_de_jora.png",
+    "image": "/assets/images/dishes/chicha_de_jora.png",
     "description": "Chicha de Jora is a traditional fermented corn beer from the Andes, known for its rich flavor and historical significance.",
     "ingredients": [
       "Jora corn",
@@ -1659,7 +1659,7 @@
     "category": "drinks",
     "price": 20.00,
     "stock": 30,
-    "image": "/src/assets/images/dishes/inka_kola.png",
+    "image": "/assets/images/dishes/inka_kola.png",
     "description": "Inka Kola is a popular Peruvian soda with a sweet, fruity flavor, often described as 'the taste of Peru'.",
     "ingredients": [
       "Carbonated water",
@@ -1677,7 +1677,7 @@
     "category": "drinks",
     "price": 25.00,
     "stock": 20,
-    "image": "/src/assets/images/dishes/mate_de_coca.png",
+    "image": "/assets/images/dishes/mate_de_coca.png",
     "description": "Mate de Coca is a traditional herbal tea made from coca leaves, known for its refreshing taste and medicinal properties.",
     "ingredients": [
       "Coca leaves",
@@ -1694,7 +1694,7 @@
     "category": "drinks",
     "price": 20.00,
     "stock": 50,
-    "image": "/src/assets/images/dishes/cusquena.png",
+    "image": "/assets/images/dishes/cusquena.png",
     "description": "Cusqueña is a premium Peruvian beer, known for its smooth taste and high-quality ingredients, brewed in Cusco.",
     "ingredients": [
       "Water",
@@ -1713,7 +1713,7 @@
     "category": "drinks",
     "price": 35.00,
     "stock": 18,
-    "image": "/src/assets/images/dishes/chilcano.png",
+    "image": "/assets/images/dishes/chilcano.png",
     "description": "Chilcano is a refreshing cocktail made with Pisco, ginger ale, lime juice, and a dash of bitters.",
     "ingredients": [
       "Pisco",
@@ -1732,7 +1732,7 @@
     "category": "drinks",
     "price": 40.00,
     "stock": 12,
-    "image": "/src/assets/images/dishes/algarrobina.png",
+    "image": "/assets/images/dishes/algarrobina.png",
     "description": "Algarrobina is a sweet and creamy cocktail made with Pisco, algarrobina syrup, milk, and egg yolk.",
     "ingredients": [
       "Pisco",
@@ -1751,7 +1751,7 @@
     "category": "drinks",
     "price": 25.00,
     "stock": 25,
-    "image": "/src/assets/images/dishes/emoliente.png",
+    "image": "/assets/images/dishes/emoliente.png",
     "description": "Emoliente is a traditional Peruvian herbal drink made from barley, flaxseed, and a mix of medicinal herbs.",
     "ingredients": [
       "Barley",
@@ -1769,7 +1769,7 @@
     "category": "drinks",
     "price": 40.00,
     "stock": 10,
-    "image": "/src/assets/images/dishes/pisco_punch.png",
+    "image": "/assets/images/dishes/pisco_punch.png",
     "description": "Pisco Punch is a classic cocktail made with Pisco, pineapple juice, lemon juice, and sugar syrup.",
     "ingredients": [
       "Pisco",
@@ -1788,7 +1788,7 @@
     "category": "drinks",
     "price": 30.00,
     "stock": 20,
-    "image": "/src/assets/images/dishes/maracuya_sour.png",
+    "image": "/assets/images/dishes/maracuya_sour.png",
     "description": "Maracuyá Sour is a fruity twist on the classic Pisco Sour, made with fresh passion fruit juice, Pisco, and lime.",
     "ingredients": [
       "Pisco",
@@ -1807,7 +1807,7 @@
     "category": "drinks",
     "price": 35.50,
     "stock": 18,
-    "image": "/src/assets/images/dishes/sangria_peruana.png",
+    "image": "/assets/images/dishes/sangria_peruana.png",
     "description": "Sangría Peruana is a refreshing cocktail made with red wine, Pisco, fruit juice, and fresh fruit.",
     "ingredients": [
       "Red wine",
@@ -1826,7 +1826,7 @@
     "category": "drinks",
     "price": 35.00,
     "stock": 15,
-    "image": "/src/assets/images/dishes/aguaymanto_sour.png",
+    "image": "/assets/images/dishes/aguaymanto_sour.png",
     "description": "Aguaymanto Sour is a variation of the Pisco Sour made with aguaymanto (goldenberry) juice, giving it a tangy and sweet flavor.",
     "ingredients": [
       "Pisco",
@@ -1845,7 +1845,7 @@
     "category": "drinks",
     "price": 38.00,
     "stock": 12,
-    "image": "/src/assets/images/dishes/daiquiri_de_fresa.png",
+    "image": "/assets/images/dishes/daiquiri_de_fresa.png",
     "description": "Daiquiri de Fresa is a refreshing cocktail made with fresh strawberries, rum, lime juice, and sugar syrup.",
     "ingredients": [
       "Strawberries",
@@ -1864,7 +1864,7 @@
     "category": "drinks",
     "price": 30.00,
     "stock": 16,
-    "image": "/src/assets/images/dishes/coca_sour.png",
+    "image": "/assets/images/dishes/coca_sour.png",
     "description": "Coca Sour is a unique Peruvian cocktail made with coca leaf-infused Pisco, lime juice, and simple syrup.",
     "ingredients": [
       "Coca leaf-infused Pisco",
