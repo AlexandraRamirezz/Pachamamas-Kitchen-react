@@ -4,6 +4,12 @@ import { useParams, useNavigate } from 'react-router-dom';
 import DishListContainer from '../../components/DishListContainer/DishListContainer';
 import HeroSection from '../../components/HeroSection/HeroSection';
 import backgroundImage from '/src/assets/images/background-menu.png';
+import imageStarters from '/src/assets/images/starters.png';
+import imageCreolefood from '/src/assets/images/creole-food.png';
+import imageSeafood from '/src/assets/images/seafood.png';
+import imageSoup from '/src/assets/images/soup.png';
+import imageDesserts from '/src/assets/images/desserts.png';
+import imageDrinks from '/src/assets/images/drinks.png';
 
 const Menu = () => {
   const { categoryId } = useParams();
@@ -34,27 +40,27 @@ const Menu = () => {
       />
       <div className='categories-container'>
         <div className={getCategoryClassName('starters')} onClick={() => handleCategoryClick('starters')}>
-          <img src="/src/assets/images/starters.png" alt="Starters" />
+          <img src={imageStarters} alt="Starters" />
           <p>Starters</p>
         </div>
         <div className={getCategoryClassName('creole-food')} onClick={() => handleCategoryClick('creole-food')}>
-          <img src="/src/assets/images/creole-food.png" alt="Creole food" />
+          <img src={imageCreolefood} alt="Creole food" />
           <p>Creole food</p>
         </div>
         <div className={getCategoryClassName('seafood')} onClick={() => handleCategoryClick('seafood')}>
-          <img src="/src/assets/images/seafood.png" alt="Seafood" />
+          <img src={imageSeafood} alt="Seafood" />
           <p>Seafood</p>
         </div>
         <div className={getCategoryClassName('soup')} onClick={() => handleCategoryClick('soup')}>
-          <img src="/src/assets/images/soup.png" alt="Soup" />
+          <img src={imageSoup} alt="Soup" />
           <p>Soup</p>
         </div>
         <div className={getCategoryClassName('desserts')} onClick={() => handleCategoryClick('desserts')}>
-          <img src="/src/assets/images/desserts.png" alt="Desserts" />
+          <img src={imageDesserts} alt="Desserts" />
           <p>Desserts</p>
         </div>
         <div className={getCategoryClassName('drinks')} onClick={() => handleCategoryClick('drinks')}>
-          <img src="/src/assets/images/drinks.png" alt="Drinks" />
+          <img src={imageDrinks} alt="Drinks" />
           <p>Drinks</p>
         </div>
       </div>
