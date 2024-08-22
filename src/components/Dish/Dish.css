@@ -9,6 +9,10 @@
   margin: 0.2rem;
 }
 
+.card img {
+  border-radius: 15px;
+}
+
 .card h3 {
   margin-top: 0.2rem;
   font-weight: 500;
