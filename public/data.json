@@ -1655,11 +1655,11 @@
   },
   {
     "id": 84,
-    "name": "Inka Kola",
+    "name": "Inca Kola",
     "category": "drinks",
     "price": 20.00,
     "stock": 30,
-    "image": "/assets/images/dishes/inka_kola.png",
+    "image": "/assets/images/dishes/inca_kola.png",
     "description": "Inka Kola is a popular Peruvian soda with a sweet, fruity flavor, often described as 'the taste of Peru'.",
     "ingredients": [
       "Carbonated water",
