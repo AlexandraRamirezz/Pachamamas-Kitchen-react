@@ -999,7 +999,7 @@
   {
     "id": 51,
     "name": "Chupe de camarones",
-    "category": "soup",
+    "category": "soups",
     "price": 40.00,
     "stock": 10,
     "image": "/assets/images/dishes/chupe_de_camarones.png",
@@ -1020,7 +1020,7 @@
   {
     "id": 52,
     "name": "Sopa de quinua",
-    "category": "soup",
+    "category": "soups",
     "price": 30.00,
     "stock": 15,
     "image": "/assets/images/dishes/sopa_de_quinua.png",
@@ -1040,7 +1040,7 @@
   {
     "id": 53,
     "name": "Sopa criolla",
-    "category": "soup",
+    "category": "soups",
     "price": 25.50,
     "stock": 12,
     "image": "/assets/images/dishes/sopa_criolla.png",
@@ -1060,7 +1060,7 @@
   {
     "id": 54,
     "name": "Sopa seca",
-    "category": "soup",
+    "category": "soups",
     "price": 30.00,
     "stock": 10,
     "image": "/assets/images/dishes/sopa_seca.png",
@@ -1080,7 +1080,7 @@
   {
     "id": 55,
     "name": "Sopa a la minuta",
-    "category": "soup",
+    "category": "soups",
     "price": 20.00,
     "stock": 15,
     "image": "/assets/images/dishes/sopa_a_la_minuta.png",
@@ -1100,7 +1100,7 @@
   {
     "id": 56,
     "name": "Sopa de olluco",
-    "category": "soup",
+    "category": "soups",
     "price": 25.00,
     "stock": 8,
     "image": "/assets/images/dishes/sopa_de_olluco.png",
@@ -1120,7 +1120,7 @@
   {
     "id": 57,
     "name": "Caldo de cabeza",
-    "category": "soup",
+    "category": "soups",
     "price": 35.00,
     "stock": 6,
     "image": "/assets/images/dishes/caldo_de_cabeza.png",
@@ -1140,7 +1140,7 @@
   {
     "id": 58,
     "name": "Caldo de gallina",
-    "category": "soup",
+    "category": "soups",
     "price": 30.00,
     "stock": 12,
     "image": "/assets/images/dishes/caldo_de_gallina.png",
@@ -1160,7 +1160,7 @@
   {
     "id": 59,
     "name": "Sopa de choros",
-    "category": "soup",
+    "category": "soups",
     "price": 40.00,
     "stock": 8,
     "image": "/assets/images/dishes/sopa_de_choros.png",
@@ -1180,7 +1180,7 @@
   {
     "id": 60,
     "name": "Sopa de mondongo",
-    "category": "soup",
+    "category": "soups",
     "price": 35.00,
     "stock": 7,
     "image": "/assets/images/dishes/sopa_de_mondongo.png",
@@ -1200,7 +1200,7 @@
   {
     "id": 61,
     "name": "Sopa de pescado",
-    "category": "soup",
+    "category": "soups",
     "price": 40.00,
     "stock": 9,
     "image": "/assets/images/dishes/sopa_de_pescado.png",
@@ -1220,7 +1220,7 @@
   {
     "id": 62,
     "name": "Sopa de trigo",
-    "category": "soup",
+    "category": "soups",
     "price": 30.50,
     "stock": 10,
     "image": "/assets/images/dishes/sopa_de_trigo.png",
@@ -1240,7 +1240,7 @@
   {
     "id": 63,
     "name": "Sopa de frijoles",
-    "category": "soup",
+    "category": "soups",
     "price": 28.00,
     "stock": 12,
     "image": "/assets/images/dishes/sopa_de_frijoles.png",
@@ -1260,7 +1260,7 @@
   {
     "id": 64,
     "name": "Caldo verde peruano",
-    "category": "soup",
+    "category": "soups",
     "price": 25.00,
     "stock": 11,
     "image": "/assets/images/dishes/caldo_verde_peruano.png",
@@ -1280,11 +1280,11 @@
   {
     "id": 65,
     "name": "Sopa teóloga",
-    "category": "soup",
+    "category": "soups",
     "price": 35.50,
     "stock": 6,
     "image": "/assets/images/dishes/sopa_teologa.png",
-    "description": "Sopa teóloga is a rich and flavorful Peruvian soup made with a variety of meats, potatoes, and a unique blend of spices, often served on special occasions.",
+    "description": "Sopa teóloga is a rich and flavorful Peruvian soups made with a variety of meats, potatoes, and a unique blend of spices, often served on special occasions.",
     "ingredients": [
       "Chicken",
       "Beef",

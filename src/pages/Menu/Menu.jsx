@@ -7,7 +7,7 @@ import backgroundImage from '/src/assets/images/background-menu.png';
 import imageStarters from '/src/assets/images/starters.png';
 import imageCriollofood from '/src/assets/images/criollo-food.png';
 import imageSeafood from '/src/assets/images/seafood.png';
-import imageSoup from '/src/assets/images/soup.png';
+import imageSoups from '/src/assets/images/soups.png';
 import imageDesserts from '/src/assets/images/desserts.png';
 import imageDrinks from '/src/assets/images/drinks.png';
 
@@ -51,9 +51,9 @@ const Menu = () => {
           <img src={imageSeafood} alt="Seafood" />
           <p>Seafood</p>
         </div>
-        <div className={getCategoryClassName('soup')} onClick={() => handleCategoryClick('soup')}>
-          <img src={imageSoup} alt="Soup" />
-          <p>Soup</p>
+        <div className={getCategoryClassName('soups')} onClick={() => handleCategoryClick('soups')}>
+          <img src={imageSoups} alt="Soups" />
+          <p>Soups</p>
         </div>
         <div className={getCategoryClassName('desserts')} onClick={() => handleCategoryClick('desserts')}>
           <img src={imageDesserts} alt="Desserts" />
