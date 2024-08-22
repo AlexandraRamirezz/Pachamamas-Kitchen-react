@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 import CartWidget from '../CartWidget/CartWidget'
 
@@ -16,19 +16,19 @@ const Navbar = () => {
       <div className='navbar-links'>
         <ul>
           <li className='nav-link'>
-            <Link to="/home">HOME</Link>
+            <NavLink to="/home" className='link' activeClassName="active">HOME</NavLink>
           </li>
           <li className='nav-link'>
-            <Link to="/about">ABOUT</Link>
+            <NavLink to="/about" className='link' activeClassName="active">ABOUT</NavLink>
           </li>
           <li className='nav-link'>
-            <Link to="/menu">MENU</Link>
+            <NavLink to="/menu" className='link' activeClassName="active">MENU</NavLink>
           </li>
           <li className='nav-link'>
-            <Link to="/reservations">RESERVATIONS</Link>
+            <NavLink to="/reservations" className='link' activeClassName="active">RESERVATIONS</NavLink>
           </li>
           <li className='nav-link'>
-            <Link to="/contact-us">CONTACT US</Link>
+            <NavLink to="/contact-us" className='link' activeClassName="active">CONTACT US</NavLink>
           </li>
         </ul>
       </div>
