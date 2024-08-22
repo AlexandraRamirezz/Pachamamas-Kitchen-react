@@ -8,7 +8,7 @@ const Dish = ({ dish }) => {
           <img src={dish.image} alt={dish.name} />
         </Link>
         <h3>{dish.name}</h3>
-        <p>S/ {dish.price}</p>
+        <p>S/ {dish.price.toFixed(2)}</p>
         <button type='submit'>
           Add to cart
         </button>

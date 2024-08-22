@@ -9,37 +9,44 @@ const DishDetail = ({ dish }) => {
 
   return (
     <>
-      <div className='detail-container'>
-        <div className='detail-info'>
-          <div className='back-menu'>
-            <Link to="/menu">
-              <i className="fa-solid fa-arrow-left"></i> BACK TO MENU
-            </Link>
-          </div>
-          <div className='container-image'>
+      <div className='back-menu'>
+        <Link to="/menu">
+          <i className="fa-solid fa-arrow-left"></i><p>BACK TO MENU</p>
+        </Link>
+      </div>
+      <div className='dish-detail-container'>
+        <div className='detail-container'>
+          <div className='detail-image'>
             <img src={dish.image} alt={dish.name} />
           </div>
-        </div>
-        <div className='detail-actions'>
-          <div className='name-dish'>
-            <h2>{dish.name}</h2>
+          <div className='detail-actions'>
+            <div className='name-dish'>
+              <h2>{dish.name}</h2>
+            </div>
+            <div>
+              <p><span>Category: </span>{dish.category}</p>
+            </div>
+            <p className='price'>S/. {dish.price.toFixed(2)}</p>
+            <p className='stock'>Stock: {dish.stock}</p>
+            <DishCount initial={1} stock={dish.stock} />
           </div>
-          <div>
-          <p>Ingredients:</p>
-            <ul className='ingredients-list'>
-              {dish.ingredients.map((ingredient, index) => (
-                <li key={index}>{ingredient}</li>
-              ))}
-            </ul>
-      </div>
-          <p className='price'>S/. {dish.price}</p>
-          <p className='stock'>Stock: {dish.stock}</p>
-          <DishCount initial={1} stock={dish.stock} />
+          <div className='extra-details-container'>
+            <div>
+              <p><span>Description: </span>{dish.description}</p>
+            </div>
+            <div>
+              <p><span>Ingredients:</span></p>
+              <ul className='ingredients-list'>
+                {dish.ingredients.map((ingredient, index) => (
+                  <li key={index}>{ingredient}</li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <p><span>Calories: </span>{dish.calories}</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className='extra-details-container'>
-        <p>Description: {dish.description}</p>
-        <p>Calories: {dish.calories}</p>
       </div>
     </>
   );

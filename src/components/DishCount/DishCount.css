@@ -10,22 +10,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: #bcbaba solid 1px;
-  box-shadow: 0px 0px 2px 0px #5a392c30;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px 0px #5a392c32;
   border-radius: 10px;
   gap: 7px;
 }
 
 .count-container button {
-  background-color: #dadada;
-  color: black;
+  background-color: #ceb78f;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 0.6rem 0.6rem;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .count-container button:hover {
-  background-color: #878787;
+  background-color: #BF913F;
   color: white;
   border: none;
   padding: 0.6rem 0.6rem;
@@ -38,8 +39,7 @@
 
 .btn-container button {
   margin-top: 7px;
-  height: 2.5rem;
-  width: 30rem;
+  padding: 0.4rem 1.5rem;
   border-radius: 10px;
   background-color: #796861;
   color: white;
