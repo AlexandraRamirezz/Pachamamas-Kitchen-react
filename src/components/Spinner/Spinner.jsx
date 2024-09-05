@@ -1,11 +1,11 @@
-import './Spinner.css'
+import './Spinner.css';
 
 const Spinner = () => {
   return (
-    <div>
-      <div>Loading...</div>;
+    <div className="spinner-overlay">
+      <div className="spinner-container"></div>
     </div>
-  )
+  );
 }
 
-export default Spinner
+export default Spinner;
