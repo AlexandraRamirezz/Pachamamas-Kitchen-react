@@ -9,26 +9,35 @@ import Reservations from './pages/Reservations/Reservations';
 import ContactUs from './pages/ContactUs/ContactUs';
 import NotFound from './pages/NotFound/NotFound';
 import DishDetailContainer from './components/DishDetailContainer/DishDetailContainer';
+import CartProvider from './context/CartContext/CartProvider';
+import Cart from './components/Cart/Cart';
+import { db } from './main';
+import { doc, getDoc } from 'firebase/firestore';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <div className='content-pages'>
-        <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/menu/category/:categoryId" element={<Menu />} />
-          <Route path="/menu/dish/:id" element={<DishDetailContainer />} />
-          <Route path="/reservations" element={<Reservations />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
-      </div>
-    </BrowserRouter>
+    <>
+      <CartProvider>
+        <BrowserRouter>
+          <Navbar />
+          <div className='content-pages'>
+            <Routes>
+              <Route path="/" element={<Navigate to="/home" />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/menu" element={<Menu />} />
+              <Route path="/menu/category/:categoryId" element={<Menu />} />
+              <Route path="/menu/dish/:id" element={<DishDetailContainer />} />
+              <Route path="/cart" element={<Cart />} />
+              <Route path="/reservations" element={<Reservations />} />
+              <Route path="/contact-us" element={<ContactUs />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+            <Footer />
+          </div>
+        </BrowserRouter>
+      </CartProvider>
+    </>
   );
 }
 
