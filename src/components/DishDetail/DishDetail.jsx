@@ -1,11 +1,15 @@
 import './DishDetail.css';
 import DishCount from '../DishCount/DishCount';
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { CartContext } from '../../context/CartContext/CartProvider';
 
 const DishDetail = ({ dish }) => {
-  if (!dish) {
-    return <p>Loading...</p>;
-  }
+  const { addDishes } = useContext(CartContext);
+
+  const onAdd = (quantity) => {
+    addDishes(dish, quantity);
+  };
 
   return (
     <>
@@ -28,7 +32,7 @@ const DishDetail = ({ dish }) => {
             </div>
             <p className='price'>S/. {dish.price.toFixed(2)}</p>
             <p className='stock'>Stock: {dish.stock}</p>
-            <DishCount initial={1} stock={dish.stock} />
+            <DishCount initial={1} stock={dish.stock} onAdd={onAdd} />
           </div>
           <div className='extra-details-container'>
             <div>

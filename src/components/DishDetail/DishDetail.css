@@ -88,6 +88,7 @@
   justify-content: center;
   max-width: 30%;
   gap: 15px;
+  padding: 1rem;
 }
 
 .extra-details-container {
