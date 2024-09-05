@@ -1,0 +1,122 @@
+.title-cart-detail h2 {
+  font-weight: 600;
+  font-size: 21px;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 0.8rem;
+}
+
+.content-cart-detail {
+  position: relative;
+  height: calc(100vh - 16.9rem);
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  margin: 0 4rem;
+}
+
+.cart-detail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.7rem;
+  background-color: #F4F4F4;
+  border-radius: 15px;
+  padding: 1.05rem;
+  height: 140px;
+  box-shadow: 0px 0px 5px 0px rgba(90, 57, 44, 0.19);
+}
+
+.cart-detail-image {
+  display: flex;
+  align-items: center;
+}
+
+.cart-detail-image img {
+  height: 130px;
+  border-radius: 12px;
+}
+
+.cart-detail-text h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.cart-detail-text p {
+  font-size: 14px;
+  padding: 0.2rem 0;
+}
+
+.cart-detail-text span {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.total-detail-per-dish {
+  margin-top: 1.3rem;
+  border-top: #454545 solid 1px;
+  padding-top: 0.3rem !important;
+}
+
+.icon-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.icon-button i {
+  color: #454545;
+}
+
+.icon-button:hover i {
+  color: #f11414;
+}
+
+.content-actions-detail {
+  margin: 0 4rem;
+  border-top: #dcdcdc solid 1px;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.content-actions-detail h3 {
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.btn-clear {
+  padding: 0.40rem 1.4rem;
+  border-radius: 20px;
+  background-color: #e2e2e2;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  background-color: #d2d2d2;
+}
+
+.btn-buy {
+  padding: 0.40rem 1.4rem;
+  border-radius: 20px;
+  background-color: #343434;
+  color: white;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-buy:hover {
+  background-color: #000000;
+}
