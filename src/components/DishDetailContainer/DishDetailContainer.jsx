@@ -6,6 +6,7 @@ import Spinner from '../Spinner/Spinner';
 
 const DishDetailContainer = () => {
   const [dish, setDish] = useState(null);
+  const [loading, setLoading] = useState(true);
   const { id } = useParams();
 
   useEffect(() => {
@@ -15,8 +16,12 @@ const DishDetailContainer = () => {
         const data = await response.json();
         const detailDish = data.find(p => p.id === Number(id));
         setDish(detailDish);
+        setTimeout(() => {
+          setLoading(false);
+        }, 400);
       } catch (error) {
         console.error(error);
+        setLoading(false);
       }
     };
     fetchData();
@@ -24,7 +29,7 @@ const DishDetailContainer = () => {
 
   return (
     <div className="container">
-      {dish == undefined ? <Spinner/> : <DishDetail dish={dish}/>}
+      {loading || !dish ? <Spinner /> : <DishDetail dish={dish} />}
     </div>
   );
 };

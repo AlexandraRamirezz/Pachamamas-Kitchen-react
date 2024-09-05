@@ -14,9 +14,11 @@ const DishListContainer = ({ categoryId }) => {
         const data = await response.json();
         const filteredCategory = categoryId ? data.filter(p => p.category === categoryId) : data;
         setDishes(filteredCategory);
+        setTimeout(() => {
+          setLoading(false);
+        }, 300);
       } catch (error) {
-        console.log(error);
-      } finally {
+        console.error(error);
         setLoading(false);
       }
     };
