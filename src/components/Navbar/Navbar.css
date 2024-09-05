@@ -34,8 +34,8 @@
 }
 
 .navbar-links {
-  background-color: #E7E6E6;
-  padding: 1.3rem;
+  background-color: transparent;
+  padding: 1rem;
 }
 
 .nav-link {
@@ -62,7 +62,16 @@
   color: #796861;
 }
 
-.link.active {
+.nav-link.active {
   background-color: #ffffff;
   color: #796861;
+}
+
+.cart-container {
+  text-decoration: none;
+}
+
+.cart-container.active {
+  background-color: #dedede;
+  border-radius: 8px;
 }

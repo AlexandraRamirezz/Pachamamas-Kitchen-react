@@ -16,23 +16,42 @@ const Navbar = () => {
       <div className='navbar-links'>
         <ul>
           <li className='nav-link'>
-            <NavLink to="/home" className='link' activeClassName="active">HOME</NavLink>
+            <NavLink
+              to="/home"
+              className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+            >HOME</NavLink>
           </li>
           <li className='nav-link'>
-            <NavLink to="/about" className='link' activeClassName="active">ABOUT</NavLink>
+            <NavLink
+              to="/about" 
+              className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+            >ABOUT</NavLink>
           </li>
           <li className='nav-link'>
-            <NavLink to="/menu" className='link' activeClassName="active">MENU</NavLink>
+            <NavLink
+              to="/menu"
+              className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+            >MENU</NavLink>
           </li>
           <li className='nav-link'>
-            <NavLink to="/reservations" className='link' activeClassName="active">RESERVATIONS</NavLink>
+            <NavLink
+              to="/reservations"
+              className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+            >RESERVATIONS</NavLink>
           </li>
           <li className='nav-link'>
-            <NavLink to="/contact-us" className='link' activeClassName="active">CONTACT US</NavLink>
+            <NavLink
+              to="/contact-us"
+              className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
+            >CONTACT US</NavLink>
           </li>
         </ul>
       </div>
-      <CartWidget />
+      <NavLink
+        to="/cart"
+        className={({ isActive }) => `cart-container ${isActive ? 'active' : ''}`}
+        ><CartWidget />
+      </NavLink>
     </nav>
   )
 }
