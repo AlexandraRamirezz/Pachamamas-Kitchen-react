@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import './DishCount.css'
 
-const DishCount = ({stock}) => {
-  const [count, setCount] = useState(0);
+const DishCount = ({ initial, stock, onAdd }) => {
+  const [count, setCount] = useState(initial);
 
   const decrement = () => {
-    if (count > 0) {
+    if (count > initial) {
       setCount(count - 1)
     }
   }
@@ -14,10 +14,6 @@ const DishCount = ({stock}) => {
     if (count < stock) {
       setCount(count + 1)
     }
-  }
-
-  const addToCart = () => {
-    alert(`${count} dishes were added to the cart`)
   }
 
   return (
@@ -32,9 +28,7 @@ const DishCount = ({stock}) => {
           </button>
         </div>
         <div className='btn-container'>
-          <button onClick={addToCart}>
-            Add to cart
-          </button>
+          <button onClick={() => onAdd(count)}>Add to cart</button>
         </div>
       </div>
   );
