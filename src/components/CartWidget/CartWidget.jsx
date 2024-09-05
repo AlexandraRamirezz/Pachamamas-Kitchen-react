@@ -1,10 +1,14 @@
 import './CartWidget.css'
+import { useContext } from 'react';
+import { CartContext } from '../../context/CartContext/CartProvider';
 
 const CartWidget = () => {
+  const { getTotalDishes } = useContext(CartContext);
+
   return (
     <div className='nav-cart'>
       <i className="fas fa-shopping-cart"></i>
-      <p>3</p>
+      { getTotalDishes() === 0 ? 0 : getTotalDishes() }
     </div>
   )
 }
