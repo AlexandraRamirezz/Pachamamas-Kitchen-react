@@ -2,27 +2,31 @@ import { useEffect, useState } from 'react';
 import './DishListContainer.css';
 import DishList from '../DishList/DishList';
 import Spinner from '../Spinner/Spinner';
+import { collection, getDocs, getFirestore, query, where } from 'firebase/firestore';
+import { useParams } from 'react-router-dom';
 
-const DishListContainer = ({ categoryId }) => {
+const DishListContainer = () => {
   const [dishes, setDishes] = useState([]);
   const [loading, setLoading] = useState(true);
+  const { categoryId } = useParams();
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('/data.json');
-        const data = await response.json();
-        const filteredCategory = categoryId ? data.filter(p => p.category === categoryId) : data;
-        setDishes(filteredCategory);
-        setTimeout(() => {
-          setLoading(false);
-        }, 300);
-      } catch (error) {
-        console.error(error);
-        setLoading(false);
-      }
-    };
-    fetchData();
+    setLoading(true);
+    const db = getFirestore();
+    const myDishes = categoryId
+      ? query(collection(db, 'dish'), where('category', '==', categoryId))
+      : collection(db, 'dish');
+
+      getDocs(myDishes)
+        .then((response) => {
+          const newDishes = response.docs.map((doc) => {
+            const data = doc.data();
+            return { id: doc.id, ...data };
+        });
+        setDishes(newDishes);
+        })
+        .catch((error) => console.error("Error searching dishes", error))
+        .finally(() => setLoading(false));
   }, [categoryId]);
 
   return (

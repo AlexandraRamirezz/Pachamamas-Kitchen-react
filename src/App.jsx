@@ -11,8 +11,6 @@ import NotFound from './pages/NotFound/NotFound';
 import DishDetailContainer from './components/DishDetailContainer/DishDetailContainer';
 import CartProvider from './context/CartContext/CartProvider';
 import Cart from './components/Cart/Cart';
-import { db } from './main';
-import { doc, getDoc } from 'firebase/firestore';
 
 function App() {
   return (

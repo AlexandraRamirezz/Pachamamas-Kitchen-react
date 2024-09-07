@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import DishDetail from '../DishDetail/DishDetail';
 import Spinner from '../Spinner/Spinner';
+import { getDoc, doc, getFirestore } from 'firebase/firestore';
 
 const DishDetailContainer = () => {
   const [dish, setDish] = useState(null);
@@ -10,21 +11,18 @@ const DishDetailContainer = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('/data.json');
-        const data = await response.json();
-        const detailDish = data.find(p => p.id === Number(id));
-        setDish(detailDish);
-        setTimeout(() => {
-          setLoading(false);
-        }, 400);
-      } catch (error) {
-        console.error(error);
-        setLoading(false);
-      }
-    };
-    fetchData();
+    setLoading(true);
+    const db = getFirestore();
+    const newDoc = doc(db, 'dish', id);
+
+    getDoc(newDoc)
+      .then((response) => {
+        const data = response.data();
+        const newDish = { id: response.id, ...data };
+        setDish(newDish);
+      })
+      .catch((error) => console.error("Error searching dishes", error))
+      .finally(() => setLoading(false));
   }, [id]);
 
   return (
