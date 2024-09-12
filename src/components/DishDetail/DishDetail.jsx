@@ -5,11 +5,18 @@ import { useContext } from 'react';
 import { CartContext } from '../../context/CartContext/CartProvider';
 
 const DishDetail = ({ dish }) => {
-  const { addDishes } = useContext(CartContext);
+  const { addDishes, cart } = useContext(CartContext);
+
+  const getDishQuantityInCart = () => {
+    const cartItem = cart.find(item => item.dish.id === dish.id);
+    return cartItem ? cartItem.quantity : 0;
+  };
 
   const onAdd = (quantity) => {
     addDishes(dish, quantity);
   };
+
+  const availableStock = dish.stock - getDishQuantityInCart();
 
   return (
     <>
@@ -31,8 +38,8 @@ const DishDetail = ({ dish }) => {
               <p><span>Category: </span>{dish.category}</p>
             </div>
             <p className='price'>S/. {dish.price.toFixed(2)}</p>
-            <p className='stock'>Stock: {dish.stock}</p>
-            <DishCount initial={1} stock={dish.stock} onAdd={onAdd} />
+            <p className='stock'>Stock: {availableStock}</p>
+            <DishCount initial={1} stock={availableStock} onAdd={onAdd} />
           </div>
           <div className='extra-details-container'>
             <div>
