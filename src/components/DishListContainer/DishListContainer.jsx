@@ -21,6 +21,9 @@ const DishListContainer = () => {
         .then((response) => {
           const newDishes = response.docs.map((doc) => {
             const data = doc.data();
+            if (data.stock === 0) {
+              data.availability = false;
+            }
             return { id: doc.id, ...data };
         });
         setDishes(newDishes);
