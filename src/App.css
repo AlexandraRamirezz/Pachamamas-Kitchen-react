@@ -8,3 +8,7 @@
   height: calc(100vh - 4.2rem);
   overflow-y: scroll;
 }
+
+.content-pages.checkout {
+  height: 100vh;
+}
