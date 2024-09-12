@@ -40,3 +40,7 @@
 .card button:hover {
   background-color: #57453e;
 }
+
+.card button:disabled {
+  cursor: not-allowed;
+}
