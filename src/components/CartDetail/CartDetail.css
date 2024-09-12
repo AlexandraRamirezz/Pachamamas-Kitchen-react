@@ -117,6 +117,35 @@
   cursor: pointer;
 }
 
+.btn-buy a {
+  text-decoration: none;
+  color: white;
+}
+
 .btn-buy:hover {
   background-color: #000000;
+}
+
+.btn-clear:disabled,
+.btn-buy:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.empty-cart-message {
+  font-size: 1.1rem;
+  color: #888;
+}
+
+.empty-cart-container i {
+  font-size: 1.8rem;
+  color: #888;
 }
