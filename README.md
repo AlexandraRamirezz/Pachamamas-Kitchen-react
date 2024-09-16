@@ -33,7 +33,7 @@ Pachamama's Kitchen es un restaurante en línea de platos y bebidas peruanas, qu
 - **Datos de los platos:** Los datos de los platos que antes estaban en un json, ahora están en la nube de Firebase.
   ![Dishes in Firebase](./src/assets/execution/dishes-firebase.gif)
 
-- **Subida de la orden a Firebase:** Muestra un resumen detallado del pedido. De ingresar los datos correctamente, el usuario podrá visualizar su número de orden de compra.
+- **Subida de la orden a Firebase:** La orden podrá ser visualizada en la nube de Firebase en la colección llamada "orden". Se podrá identificar con el ID de la orden que se entrega cuando confirmas tu compra.
   ![Orden in Firebase](./src/assets/execution/confirm-orden.gif)
 
 ## 🔥 Tecnologías utilizadas
